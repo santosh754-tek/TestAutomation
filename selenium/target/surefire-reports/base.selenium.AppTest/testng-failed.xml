@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [base.selenium.AppTest]" verbose="0">
+  <test name="Command line test" preserve-order="false">
+    <classes>
+      <class name="base.selenium.AppTest"/>
+    </classes>
+  </test> <!-- Command line test -->
+</suite> <!-- Failed suite [base.selenium.AppTest] -->
