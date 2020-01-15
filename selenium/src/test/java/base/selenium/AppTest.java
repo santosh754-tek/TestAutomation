@@ -2,7 +2,6 @@ package base.selenium;
 
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
-
 import org.apache.log4j.Logger;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
@@ -67,5 +66,4 @@ public class AppTest extends BaseClass
 	public void quit() {
 		driver.quit();
 	}
-
 }

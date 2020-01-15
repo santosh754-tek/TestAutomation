@@ -5,14 +5,10 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
 
-import org.testng.annotations.Test;
-
 public class PropertiesClass {
 	
 	  public static Properties pro;
 
-	
-	
 	public  static void getProperty() throws IOException
 	{
 		try
