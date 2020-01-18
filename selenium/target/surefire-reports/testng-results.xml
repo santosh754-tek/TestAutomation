@@ -5,23 +5,23 @@
       <![CDATA[User is loggged in Successfully]]>
     </line>
   </reporter-output>
-  <suite started-at="2020-01-15T13:45:03Z" name="base.selenium.AppTest" finished-at="2020-01-15T13:45:33Z" duration-ms="29314">
+  <suite started-at="2020-01-18T23:16:49Z" name="base.selenium.AppTest" finished-at="2020-01-18T23:17:54Z" duration-ms="65386">
     <groups>
     </groups>
-    <test started-at="2020-01-15T13:45:03Z" name="Command line test" finished-at="2020-01-15T13:45:33Z" duration-ms="29314">
+    <test started-at="2020-01-18T23:16:49Z" name="Command line test" finished-at="2020-01-18T23:17:54Z" duration-ms="65386">
       <class name="base.selenium.AppTest">
-        <test-method is-config="true" signature="urlNavigate()[pri:0, instance:base.selenium.AppTest@279fedbd]" started-at="2020-01-15T19:15:03Z" name="urlNavigate" finished-at="2020-01-15T19:15:25Z" duration-ms="21987" status="PASS">
+        <test-method is-config="true" signature="urlNavigate()[pri:0, instance:base.selenium.AppTest@2a5c8d3f]" started-at="2020-01-19T04:46:49Z" name="urlNavigate" finished-at="2020-01-19T04:47:42Z" duration-ms="53136" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- urlNavigate -->
-        <test-method signature="naukariLogIn()[pri:0, instance:base.selenium.AppTest@279fedbd]" started-at="2020-01-15T19:15:26Z" name="naukariLogIn" description="Login to the Naukari websites and Verify successfull login" finished-at="2020-01-15T19:15:31Z" duration-ms="5873" status="PASS">
+        <test-method signature="naukariLogIn()[pri:0, instance:base.selenium.AppTest@2a5c8d3f]" started-at="2020-01-19T04:47:42Z" name="naukariLogIn" description="Login to the Naukari websites and Verify successfull login" finished-at="2020-01-19T04:47:52Z" duration-ms="9974" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[User is loggged in Successfully]]>
             </line>
           </reporter-output>
         </test-method> <!-- naukariLogIn -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:base.selenium.AppTest@279fedbd]" started-at="2020-01-15T19:15:31Z" name="quit" finished-at="2020-01-15T19:15:33Z" duration-ms="1128" status="PASS">
+        <test-method is-config="true" signature="quit()[pri:0, instance:base.selenium.AppTest@2a5c8d3f]" started-at="2020-01-19T04:47:52Z" name="quit" finished-at="2020-01-19T04:47:54Z" duration-ms="1787" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->

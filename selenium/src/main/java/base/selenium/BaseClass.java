@@ -1,6 +1,9 @@
 package base.selenium;
 
 import java.io.IOException;
+import java.util.logging.LogManager;
+
+import org.apache.commons.logging.Log;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -30,6 +33,7 @@ public class BaseClass extends PropertiesClass
 			System.setProperty("webdriver.chrome.driver",
 					"C:\\Users\\santo\\Documents\\New folder\\selenium\\src\\main\\java\\test\\selenium\\Driver\\chromedriver.exe");
 			driver = new ChromeDriver();
+			log.info( "chrome driver is launched"  );
 		}
 		
 	}
