@@ -62,6 +62,9 @@ public class AppTest extends BaseClass
 		log.info(" User is successfully  navigated to naukari Home page and Naukari labels is displayed");
 	}
 
+	/**
+	 * This method execute at the end of test and close all the web browser opened.
+	 */
 	@AfterTest()
 	public void quit() {
 		driver.quit();
