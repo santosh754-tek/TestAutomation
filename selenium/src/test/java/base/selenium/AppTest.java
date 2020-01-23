@@ -67,6 +67,7 @@ public class AppTest extends BaseClass
 	 */
 	@AfterTest()
 	public void quit() {
+	//closing all the opened browser opened by driver
 		driver.quit();
 	}
 }
